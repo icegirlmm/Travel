@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import fastClick from 'fastclick' // 解决移动端300毫秒点击延迟的问题
-import './assets/styles/reset.css'
-import './assets/styles/border.css'// 移动端的一像素物理问题
+import 'styles/reset.css'
+import 'styles/border.css'// 移动端的一像素物理问题
+import 'styles/iconfont.css'
 Vue.config.productionTip = false
 fastClick.attach(document.body) // 把fastClick加载到body上
 /* eslint-disable no-new */
