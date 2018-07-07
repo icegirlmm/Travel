@@ -23,7 +23,7 @@ export default{
   .header
     display: flex
     line-height: .84rem
-    background: $bgColor;
+    background: $bgColor
     color: #fff
     .header-left
       width: .64rem
