@@ -85,20 +85,21 @@ export default{
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
 @import '~styles/mixins.styl'
-  .icons
-     position: relative
-     overflow: hidden
-     height: 0
-     padding-bottom: 50.67%
-    .swiper-pagination
-      position: absolute
-      bottom: 0
   .icons >>> .swiper-container
      overflow: hidden
      height: 0.6rem
      padding-bottom: 42.67%
   .icons >>> .swiper-pagination-bullet-active
      background: $bgColor
+  .icons
+     position: relative
+     overflow: hidden
+     height: 0
+     margin-top: .1rem
+     padding-bottom: 50.67%
+    .swiper-pagination
+      position: absolute
+      bottom: 0
    .icon
      position: relative
      overflow: hidden
