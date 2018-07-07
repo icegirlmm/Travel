@@ -16,7 +16,9 @@ export default {
     return {
       swiperOption: {
         pagination: '.swiper-pagination',
-        loop: true
+        autoplay: 1000,
+        loop: true,
+        disableOnInteraction: false
       },
       swiperList: [{
         id: '0001',
@@ -41,7 +43,6 @@ export default {
     background: #fff
 .wrapper
     overflow: hidden
-    width:100%
     height:0
     padding-bottom: 26.67%
     // padding-bottom 的百分比相对的是父级元素的宽度，这样使得宽高比保持一定的比例
